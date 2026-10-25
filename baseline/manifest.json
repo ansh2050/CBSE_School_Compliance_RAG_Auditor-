@@ -1,0 +1,79 @@
+{
+  "index_version": "1.0",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "built_at": "2026-10-09T18:30:29.404167+00:00",
+  "index_name": "cbse_index",
+  "artifact_checksums": {
+    "cbse_index.faiss": "ee92564522ee0ddc53d4dfad003d8de568ebd95fef2affb23e0c18b720c0abcc",
+    "cbse_index.pkl": "7d8e96ab3594050b7bd0b541ad094bed15e2f7e708f5fe3d5acc494c7eea3131"
+  },
+  "source_inventory": [
+    {
+      "source_id": "cbse-acad-subjects-01",
+      "source_title": "CBSE Academic Subjects Structure",
+      "issuing_authority": "Central Board of Secondary Education",
+      "source_url": "https://cbse.gov.in",
+      "source_category": "Academic",
+      "applicability": "All CBSE-affiliated schools",
+      "publication_date": "2024-01-01",
+      "supersession_status": "current",
+      "local_file": "CBSE_Academic_Subjects_Structure.md",
+      "sha256": "3328513f44fc1dbffb6d3d977a2559446c5a38b10a2fe054cb24a963a675ef34",
+      "retrieval_date": "2026-10-09T18:30:29.403140+00:00"
+    },
+    {
+      "source_id": "cbse-assessment-attendance-01",
+      "source_title": "CBSE Assessment and Attendance Rules",
+      "issuing_authority": "Central Board of Secondary Education",
+      "source_url": "https://cbse.gov.in",
+      "source_category": "Assessment & Attendance",
+      "applicability": "All CBSE-affiliated schools",
+      "publication_date": "2024-01-01",
+      "supersession_status": "current",
+      "local_file": "CBSE_Assessment_Attendance_Rules.md",
+      "sha256": "2f000f9998cda5e74c1e09f8bd81682fe30276bd5c96f460316d93d8bf9c06ed",
+      "retrieval_date": "2026-10-09T18:30:29.403418+00:00"
+    },
+    {
+      "source_id": "cbse-fees-admissions-01",
+      "source_title": "CBSE Fees, Admissions & Operational Compliance",
+      "issuing_authority": "Central Board of Secondary Education",
+      "source_url": "https://cbse.gov.in",
+      "source_category": "Fees & Admissions",
+      "applicability": "All CBSE-affiliated schools",
+      "publication_date": "2024-01-01",
+      "supersession_status": "current",
+      "local_file": "CBSE_Fees_Admissions_Operational_Compliance.md",
+      "sha256": "179f668c2d916c0b63a3294bf44cc9ba60676fa3c068157f4a490a8b49e6f5da",
+      "retrieval_date": "2026-10-09T18:30:29.403626+00:00"
+    },
+    {
+      "source_id": "cbse-lab-infra-01",
+      "source_title": "CBSE Lab and Infrastructure Mandates",
+      "issuing_authority": "Central Board of Secondary Education",
+      "source_url": "https://cbse.gov.in",
+      "source_category": "Infrastructure",
+      "applicability": "All CBSE-affiliated schools",
+      "publication_date": "2024-01-01",
+      "supersession_status": "current",
+      "local_file": "CBSE_Lab_Infrastructure_Mandates.md",
+      "sha256": "2dfaa552254aae0391a5394b0b8b6c99d0fb93969607048d46cd8d10c7d596af",
+      "retrieval_date": "2026-10-09T18:30:29.404000+00:00"
+    },
+    {
+      "source_id": "cbse-verification-matrix-01",
+      "source_title": "User Upload Verification Matrix",
+      "issuing_authority": "Central Board of Secondary Education",
+      "source_url": "https://cbse.gov.in",
+      "source_category": "Verification",
+      "applicability": "All CBSE-affiliated schools",
+      "publication_date": "2024-01-01",
+      "supersession_status": "current",
+      "local_file": "User_Upload_Verification_Matrix.md",
+      "sha256": "60f240adcfd3406f9b440961a0a12d56cc9486e6433d85d93a6439a56b16a3cf",
+      "retrieval_date": "2026-10-09T18:30:29.404150+00:00"
+    }
+  ]
+}
