@@ -176,7 +176,7 @@ The permanent CBSE baseline FAISS index (`baseline/`) is protected by a 5-guard 
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ansh2050/CBSE_School_Compliance_RAG_Auditor-.git
 cd <project-folder>
 ```
 
